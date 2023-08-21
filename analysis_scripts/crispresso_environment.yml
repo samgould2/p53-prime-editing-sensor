@@ -1,0 +1,10 @@
+name: CRISPResso_env
+channels:
+  - defaults
+  - bioconda
+  - conda-forge
+dependencies:
+  - python=3.10
+  - crispresso2
+  - jinja2
+  - pandas
