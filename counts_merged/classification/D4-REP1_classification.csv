@@ -1,0 +1,10 @@
+classification,count
+good quality,25701797.0
+low_qual_r1,260073.0
+low_qual_r2,554675.0
+low_qual_r12,204838.0
+no extension match,1589301.0
+unaligned tevo,1155243.0
+no protospacer match,4540165.0
+decoupled extension-protospacer,5297849.0
+correct id,13119239.0
