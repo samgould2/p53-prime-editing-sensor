@@ -1,0 +1,4 @@
+python3 split_fastq.py 230411San_D23-5181-1_1_sequence.fastq barcodes.txt 1_1
+python3 split_fastq.py 230411San_D23-5181-1_2_sequence.fastq barcodes.txt 1_2
+python3 split_fastq.py 230411San_D23-5181-2_1_sequence.fastq barcodes.txt 2_1 
+python3 split_fastq.py 230411San_D23-5181-2_2_sequence.fastq barcodes.txt 2_2
