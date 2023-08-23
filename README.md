@@ -24,20 +24,12 @@ This repository is broken down into the following sections:
 ##
 The jupyter notebooks for recreating the figures that appear in the paper should run in most python environments (no particularly exotic packages are used). For troubleshooting purposes, here is a list of packages and version numbers used:
 
-python==3.9.12
-
-matplotlib==3.6.2
-
-numpy==1.23.5
-
-pandas==1.5.2
-
-regex==2022.10.31
-
-scikit-learn==0.24.2
-
-scipy==1.10.0
-
-seaborn==0.12.2
-
-statannot==0.2.3
+- python==3.9.12
+- matplotlib==3.6.2
+- numpy==1.23.5
+- pandas==1.5.2
+- regex==2022.10.31
+- scikit-learn==0.24.2
+- scipy==1.10.0
+- seaborn==0.12.2
+- statannot==0.2.3
