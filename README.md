@@ -20,6 +20,10 @@ This repository is broken down into the following sections:
 
 3. Source data for generating figures
     - These are contained in the other folders, and are referenced (as relative paths) by the figure generation python notebooks.
+    - Includes:
+        - **MAGeCK Analysis**: Complete MAGeCK analysis runs for read normalization, and calculation of LFC and FDR value for pegRNAs.
+        - **crispresso** & **crispresso_replicates_merged**: Aggregated crispresso analysis with quantification of sensor editing activity for each pegRNA.
+        - To use and explore these datasets, see the figure generation python notebooks for examples that can be easily modified.
 
 ##
 The jupyter notebooks for recreating the figures that appear in the paper should run in most python environments (no particularly exotic packages are used). For troubleshooting purposes, here is a list of packages and version numbers used:
