@@ -1,13 +1,13 @@
 # p53-prime-editing-sensor
 
-## Created by Sam Gould (samgould@mit.edu) | Sánchez-Rivera Lab | Koch Institute (MIT)
-
+## Created by Sam Gould | Sánchez-Rivera Lab | Koch Institute (MIT)
+## For inquiries, email: samgould@mit.edu
 Code for analysis of the p53 prime editing sensor screening dataset.
 
 This repository is broken down into the following sections:
 1. Jupyter Notebooks for recreating all of the figures that appear in the paper, included extended data figures.
-    - These notebooks are located in the main directory and are labelled according to the figure #. All extended data figures are generated in a single notebook.
-    - All source data is referenced with relative paths to allow for complete reproducibility (you should be able to download the repository and directly run the ) 
+    - These notebooks are located in the main directory and are labelled according to the figure # (i.e. **figure_X.ipynb**). All extended data figures are generated in a single notebook (**extended_figures.ipynb**).
+    - All source data is referenced with relative paths to allow for complete reproducibility (you should be able to download the repository and directly run all the code in these notebooks). 
 
 2. Analysis scripts used to process raw fastq files (**see folder: analysis_scripts**):
     - **split_fastq.py**: python script for deconvolution of fastq file into separate files by sample.
