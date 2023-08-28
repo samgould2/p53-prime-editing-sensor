@@ -20,10 +20,10 @@ This repository is broken down into the following sections:
         - **crispresso_environment.yml**: for generating a virtual environment that allows users to run crispresso via python commands (this script will break otherwise). This can be done with the following syntax:
 
         ```        
-conda env create -n crispresso_env -f ./crispresso_environment.yml
+        conda env create -n crispresso_env -f ./crispresso_environment.yml
 
-#And then to activate it:
-conda activate crispresso_env
+        #And then to activate it:
+        conda activate crispresso_env
         ```
 
 3. Source data for generating figures
