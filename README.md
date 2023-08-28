@@ -23,9 +23,9 @@ conda activate crispresso_env
 ```
 
 
-    - **crispresso_analysis_aggregation.py**: as the name suggests, a python script for aggregating the results of crispresso runs (from the 28,000+ folders per sample) and formatting them into readable csv files.
-    - Other files in this folder are referenced by some (or all scripts).
-    - The .sh scripts with corresponding names are the scripts that were used to parallelize and run these jobs on the Luria Computing Cluster at MIT.
+- **crispresso_analysis_aggregation.py**: as the name suggests, a python script for aggregating the results of crispresso runs (from the 28,000+ folders per sample) and formatting them into readable csv files.
+- Other files in this folder are referenced by some (or all scripts).
+- The .sh scripts with corresponding names are the scripts that were used to parallelize and run these jobs on the Luria Computing Cluster at MIT.
 
 3. Source data for generating figures
     - These are contained in the other folders, and are referenced (as relative paths) by the figure generation python notebooks.
