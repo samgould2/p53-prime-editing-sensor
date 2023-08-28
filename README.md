@@ -15,12 +15,12 @@ This repository is broken down into the following sections:
     - **crispresso_analysis.py**: python script for using crispresso2 to perform quantification of editing outcomes for each pegRNA at each time-point/condition/replicate.
         - **crispresso_environment.yml**: for generating a virtual environment that allows users to run crispresso via python commands (this script will break otherwise). This can be done with the following syntax:
 
-```conda env create -n crispresso_env -f ./crispresso_environment.yml
-```
+conda env create -n crispresso_env -f ./crispresso_environment.yml
+
 And then to activate it:
 
-```conda activate crispresso_env
-```
+conda activate crispresso_env
+
 
     - **crispresso_analysis_aggregation.py**: as the name suggests, a python script for aggregating the results of crispresso runs (from the 28,000+ folders per sample) and formatting them into readable csv files.
     - Other files in this folder are referenced by some (or all scripts).
