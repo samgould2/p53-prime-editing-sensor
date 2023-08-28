@@ -16,15 +16,15 @@ This repository is broken down into the following sections:
     - **crispresso_analysis_aggregation.py**: as the name suggests, a python script for aggregating the results of crispresso runs (from the 28,000+ folders per sample) and formatting them into readable csv files.
     - Other files in this folder are referenced by some (or all scripts).
     - The .sh scripts with corresponding names are the scripts that were used to parallelize and run these jobs on the Luria Computing Cluster at MIT.
-    - **Note**: In order to run crispresso2, you need to create a virtual environment that satisfies all requirements. To do so use the following:
+    - **Note**: In order to run crispresso2 (**crispresso_analysis.py**), you need to create a virtual environment that satisfies all requirements. To do so use the following:
         - **crispresso_environment.yml**: for generating a virtual environment that allows users to run crispresso via python commands (this script will break otherwise). This can be done with the following syntax:
 
-```        
+        ```        
 conda env create -n crispresso_env -f ./crispresso_environment.yml
 
 #And then to activate it:
 conda activate crispresso_env
-```
+        ```
 
 3. Source data for generating figures
     - These are contained in the other folders, and are referenced (as relative paths) by the figure generation python notebooks.
