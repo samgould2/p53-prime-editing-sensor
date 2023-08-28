@@ -20,6 +20,7 @@ conda env create -n crispresso_env -f ./crispresso_environment.yml
 
 #and to activate it
 conda activate crispresso_env
+
 ```
 
     - **crispresso_analysis_aggregation.py**: as the name suggests, a python script for aggregating the results of crispresso runs (from the 28,000+ folders per sample) and formatting them into readable csv files.
