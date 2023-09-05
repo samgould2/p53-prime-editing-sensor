@@ -1,0 +1,76 @@
+INFO  @ Sat, 02 Sep 2023 21:32:25: Parameters: /Users/samgould/opt/anaconda3/envs/mageckenv/bin/mageck test -k /Users/samgould/Documents/GitHub/p53-sensor-NGS-analysis/MAGeCK/df3_mageck.txt -t D34-REP3 -c D4-REP3 --normcounts-to-file -n amp3_D34_D4_endogenous 
+INFO  @ Sat, 02 Sep 2023 21:32:25: Welcome to MAGeCK v0.5.9.5. Command: test 
+INFO  @ Sat, 02 Sep 2023 21:32:25: Loading count table from /Users/samgould/Documents/GitHub/p53-sensor-NGS-analysis/MAGeCK/df3_mageck.txt  
+INFO  @ Sat, 02 Sep 2023 21:32:25: Processing 1 lines.. 
+DEBUG @ Sat, 02 Sep 2023 21:32:25: Parsing error in line 1 (usually the header line). Skip this line. 
+INFO  @ Sat, 02 Sep 2023 21:32:25: Loaded 77 records. 
+INFO  @ Sat, 02 Sep 2023 21:32:25: Loading Rnw template file: /Users/samgould/opt/anaconda3/envs/mageckenv/lib/python3.10/site-packages/mageck/test_report.Rmd. 
+DEBUG @ Sat, 02 Sep 2023 21:32:25: Setting up the visualization module... 
+INFO  @ Sat, 02 Sep 2023 21:32:25: Loading R template file: /Users/samgould/opt/anaconda3/envs/mageckenv/lib/python3.10/site-packages/mageck/plot_template.RTemplate. 
+INFO  @ Sat, 02 Sep 2023 21:32:25: Loading R template file: /Users/samgould/opt/anaconda3/envs/mageckenv/lib/python3.10/site-packages/mageck/plot_template_indvgene.RTemplate. 
+INFO  @ Sat, 02 Sep 2023 21:32:25: Loading Rnw template file: /Users/samgould/opt/anaconda3/envs/mageckenv/lib/python3.10/site-packages/mageck/plot_template.Rnw. 
+DEBUG @ Sat, 02 Sep 2023 21:32:25: Setting up the visualization module... 
+DEBUG @ Sat, 02 Sep 2023 21:32:25: Given sample labels: D34-REP3 
+DEBUG @ Sat, 02 Sep 2023 21:32:25: Converted index: 1 
+INFO  @ Sat, 02 Sep 2023 21:32:25: Treatment samples:D34-REP3 
+INFO  @ Sat, 02 Sep 2023 21:32:25: Treatment sample index:1 
+DEBUG @ Sat, 02 Sep 2023 21:32:25: Given sample labels: D4-REP3 
+DEBUG @ Sat, 02 Sep 2023 21:32:25: Converted index: 0 
+INFO  @ Sat, 02 Sep 2023 21:32:25: Control samples:D4-REP3 
+INFO  @ Sat, 02 Sep 2023 21:32:25: Control sample index:0 
+DEBUG @ Sat, 02 Sep 2023 21:32:25: Initial (total) size factor: 1.2153120389016538 0.8494978224941797 
+DEBUG @ Sat, 02 Sep 2023 21:32:25: Median factor: 1.535122757109108 0.6321266728730152 
+INFO  @ Sat, 02 Sep 2023 21:32:25: Final size factor: 1.535122757109108 0.6321266728730152 
+INFO  @ Sat, 02 Sep 2023 21:32:25: Writing normalized read counts to amp3_D34_D4_endogenous.normalized.txt 
+INFO  @ Sat, 02 Sep 2023 21:32:25: Detecting outliers from variance estimation.. Avg read count:[2177.7771143420737], Var: [2742839944598.7695] 
+INFO  @ Sat, 02 Sep 2023 21:32:25: Skipping 1 sgRNAs from variance calculation because of their extreme high counts (> 4* STD (mean counts) ). 
+DEBUG @ Sat, 02 Sep 2023 21:32:25: Adjusted model: 2.6345650216390633	0 
+INFO  @ Sat, 02 Sep 2023 21:32:25: Before RRA, 3 sgRNAs are removed with zero counts in both group(s). 
+INFO  @ Sat, 02 Sep 2023 21:32:25: Use qnorm to reversely calculate sgRNA scores ... 
+DEBUG @ Sat, 02 Sep 2023 21:32:26: lower test FDR cutoff: 0.7162162162162162 
+DEBUG @ Sat, 02 Sep 2023 21:32:26: higher test FDR cutoff: 0.06756756756756757 
+INFO  @ Sat, 02 Sep 2023 21:32:26: Running command: RRA -i amp3_D34_D4_endogenous.plow.txt -o amp3_D34_D4_endogenous.gene.low.txt -p 0.5 --skip-gene NA --skip-gene na  
+INFO  @ Sat, 02 Sep 2023 21:32:26: Command message: 
+INFO  @ Sat, 02 Sep 2023 21:32:26:   Welcome to RRA v 0.5.9. 
+INFO  @ Sat, 02 Sep 2023 21:32:26:   Skipping gene NA for permutation ... 
+INFO  @ Sat, 02 Sep 2023 21:32:26:   Skipping gene na for permutation ... 
+INFO  @ Sat, 02 Sep 2023 21:32:26:   Reading input file... 
+INFO  @ Sat, 02 Sep 2023 21:32:26:   Summary: 74 sgRNAs, 74 genes, 1 lists; skipped sgRNAs:0 
+INFO  @ Sat, 02 Sep 2023 21:32:26:   Computing lo-values for each group... 
+INFO  @ Sat, 02 Sep 2023 21:32:26:   Computing false discovery rate... 
+INFO  @ Sat, 02 Sep 2023 21:32:26:   Increase the number of permutations to 1352 to get precise p values. To avoid this, use the --permutation option. 
+INFO  @ Sat, 02 Sep 2023 21:32:26:   Permuting genes with 1 sgRNAs... 
+INFO  @ Sat, 02 Sep 2023 21:32:26:   Number of genes under FDR adjustment: 74 
+INFO  @ Sat, 02 Sep 2023 21:32:26:   Saving to output file... 
+INFO  @ Sat, 02 Sep 2023 21:32:26:   RRA completed. 
+INFO  @ Sat, 02 Sep 2023 21:32:26:   Groups deletion complete. 
+INFO  @ Sat, 02 Sep 2023 21:32:26:   Lists deletion complete. 
+INFO  @ Sat, 02 Sep 2023 21:32:26:    
+INFO  @ Sat, 02 Sep 2023 21:32:26: End command message. 
+INFO  @ Sat, 02 Sep 2023 21:32:26: Running command: RRA -i amp3_D34_D4_endogenous.phigh.txt -o amp3_D34_D4_endogenous.gene.high.txt -p 0.06756756756756757 --skip-gene NA --skip-gene na  
+INFO  @ Sat, 02 Sep 2023 21:32:26: Command message: 
+INFO  @ Sat, 02 Sep 2023 21:32:26:   Welcome to RRA v 0.5.9. 
+INFO  @ Sat, 02 Sep 2023 21:32:26:   Skipping gene NA for permutation ... 
+INFO  @ Sat, 02 Sep 2023 21:32:26:   Skipping gene na for permutation ... 
+INFO  @ Sat, 02 Sep 2023 21:32:26:   Reading input file... 
+INFO  @ Sat, 02 Sep 2023 21:32:26:   Summary: 74 sgRNAs, 74 genes, 1 lists; skipped sgRNAs:0 
+INFO  @ Sat, 02 Sep 2023 21:32:26:   Computing lo-values for each group... 
+INFO  @ Sat, 02 Sep 2023 21:32:26:   Computing false discovery rate... 
+INFO  @ Sat, 02 Sep 2023 21:32:26:   Increase the number of permutations to 1352 to get precise p values. To avoid this, use the --permutation option. 
+INFO  @ Sat, 02 Sep 2023 21:32:26:   Permuting genes with 1 sgRNAs... 
+INFO  @ Sat, 02 Sep 2023 21:32:26:   Number of genes under FDR adjustment: 74 
+INFO  @ Sat, 02 Sep 2023 21:32:26:   Saving to output file... 
+INFO  @ Sat, 02 Sep 2023 21:32:26:   RRA completed. 
+INFO  @ Sat, 02 Sep 2023 21:32:26:   Groups deletion complete. 
+INFO  @ Sat, 02 Sep 2023 21:32:26:   Lists deletion complete. 
+INFO  @ Sat, 02 Sep 2023 21:32:26:    
+INFO  @ Sat, 02 Sep 2023 21:32:26: End command message. 
+DEBUG @ Sat, 02 Sep 2023 21:32:26: Sorting the merged items by negative selection... 
+INFO  @ Sat, 02 Sep 2023 21:32:26: Loading top 10 genes from amp3_D34_D4_endogenous.gene.low.txt: WT,E358E,F338L,R333C,R335C,I332F,E339K,S362AfsTer8,R342Q,R335H 
+DEBUG @ Sat, 02 Sep 2023 21:32:26: Column index:3 
+INFO  @ Sat, 02 Sep 2023 21:32:26: Loading top 10 genes from amp3_D34_D4_endogenous.gene.high.txt: E343SfsTer2,E339AfsTer8,E339DfsTer7,E339VfsTer8,L344RfsTer8,R333VfsTer12,L348Ter,K351Ter,L348W,F341C 
+DEBUG @ Sat, 02 Sep 2023 21:32:26: Column index:9 
+INFO  @ Sat, 02 Sep 2023 21:32:26: Running command: rm amp3_D34_D4_endogenous.plow.txt 
+INFO  @ Sat, 02 Sep 2023 21:32:26: Running command: rm amp3_D34_D4_endogenous.phigh.txt 
+INFO  @ Sat, 02 Sep 2023 21:32:26: Running command: rm amp3_D34_D4_endogenous.gene.low.txt 
+INFO  @ Sat, 02 Sep 2023 21:32:26: Running command: rm amp3_D34_D4_endogenous.gene.high.txt 

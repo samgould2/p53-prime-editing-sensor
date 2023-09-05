@@ -1,0 +1,13 @@
+Reaction #,Sample,Primer Pair,Start_exclude_F,Start_exclude_R,Orientation,Start_CDS,End_CDS,F_handle,R_handle
+1,D4-REP1,"PCR1_6F, R",22,27,RC,559,672,cccagttgcaaaccagac,ctaagagcaatcagtgaggaatc
+2,D4-REP2,"PCR1_7F, R",23,25,RC,696,782,gtggcaagtggctcctgac,GATGGTGGTACAGTCAGAGCC
+3,D4-REP3,"PCR1_10F, R",21,23,RC,993,1085,acCTGGAGTGAGCCCTG,ctgcagcaacagaggaggg
+4,D34-REP1,"PCR1_6F, R",22,27,RC,559,672,cccagttgcaaaccagac,ctaagagcaatcagtgaggaatc
+5,D34-REP2,"PCR1_7F, R",23,25,RC,696,782,gtggcaagtggctcctgac,GATGGTGGTACAGTCAGAGCC
+6,D34-REP3,"PCR1_10F, R",21,23,RC,993,1085,acCTGGAGTGAGCCCTG,ctgcagcaacagaggaggg
+7,D34-Nutlin-REP1,"PCR1_6F, R",22,27,RC,559,672,cccagttgcaaaccagac,ctaagagcaatcagtgaggaatc
+8,D34-Nutlin-REP2,"PCR1_7F, R",23,25,RC,696,782,gtggcaagtggctcctgac,GATGGTGGTACAGTCAGAGCC
+9,D34-Nutlin-REP3,"PCR1_10F, R",21,23,RC,993,1085,acCTGGAGTGAGCCCTG,ctgcagcaacagaggaggg
+10,A549_PE-Max_WT,"PCR1_6F, R",22,27,RC,559,672,cccagttgcaaaccagac,ctaagagcaatcagtgaggaatc
+11,A549_PE-Max_WT,"PCR1_7F, R",23,25,RC,696,782,gtggcaagtggctcctgac,GATGGTGGTACAGTCAGAGCC
+12,A549_PE-Max_WT,"PCR1_10F, R",21,23,RC,993,1085,acCTGGAGTGAGCCCTG,ctgcagcaacagaggaggg
