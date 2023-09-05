@@ -14,6 +14,9 @@ This repository is broken down into the following sections:
     - **sensor_extraction.py**: python script for filtering reads, counting pegRNAs and recombination events, extracting sensor reads and placing them in separate fastq files for each pegRNA.
     - **crispresso_analysis.py**: python script for using crispresso2 to perform quantification of editing outcomes for each pegRNA at each time-point/condition/replicate.
     - **crispresso_analysis_aggregation.py**: as the name suggests, a python script for aggregating the results of crispresso runs (from the 28,000+ folders per sample) and formatting them into readable csv files.
+    - **analysis scripts endogenous sequencing**: folder that contains scripts used for analysis of the endogenous sequencing results.
+        - **fastq_trimmer.py**: trimming 150 nt reads down to 100 nt so that they can be joined.
+        - **join_read_analyzer.py**: analyzing fastq-joined reads to filter and count sequencing outcomes, and determine their effect at the DNA and protein level.
     - Other files in this folder are referenced by some (or all scripts).
     - The .sh scripts with corresponding names are the scripts that were used to parallelize and run these jobs on the Luria Computing Cluster at MIT.
     - **Note**: In order to run crispresso2 (**crispresso_analysis.py**), you need to create a virtual environment that satisfies all requirements. To do so use the following:
